@@ -5,7 +5,7 @@ import json
 async def test():
     uri = "ws://localhost:8000/ws/query"
     async with websockets.connect(uri) as ws:
-        await ws.send(json.dumps({"query": "What is PMT Pro?"}))
+        await ws.send(json.dumps({"query": "How do we use the PMT Pro?"}))
         response = await ws.recv()
         print("Response:", json.loads(response))
 
