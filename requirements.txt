@@ -1,0 +1,8 @@
+python-docx 
+chromadb 
+sentence-transformers 
+ollama
+fastapi
+uvicorn
+pydantic
+requests
