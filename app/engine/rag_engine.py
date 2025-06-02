@@ -8,7 +8,7 @@ collection = chroma_client.get_or_create_collection("pmt_pro_docs")
 
 # Embedding via Ollama
 OLLAMA_EMBEDDING_MODEL = "mxbai-embed-large"
-OLLAMA_GENERATE_MODEL = "tinyllama:1.1b"
+OLLAMA_GENERATE_MODEL = "llama3.1:8b"
 OLLAMA_BASE_URL = "http://localhost:11434"
 
 def get_ollama_embedding(text: str):
