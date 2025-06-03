@@ -1,6 +1,6 @@
-# import sys
-# import pysqlite3
-# sys.modules["sqlite3"] = pysqlite3
+import sys
+import pysqlite3
+sys.modules["sqlite3"] = pysqlite3
 
 from fastapi import FastAPI, WebSocket
 from fastapi.middleware.cors import CORSMiddleware

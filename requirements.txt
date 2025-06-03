@@ -6,3 +6,4 @@ fastapi
 uvicorn
 pydantic
 requests 
+pysqlite3-binary
