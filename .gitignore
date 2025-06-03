@@ -174,7 +174,7 @@ cython_debug/
 .pypirc
 
 # knowledge-based docs
-docs/
+# docs/
 
 # database (vector DB)
 rag_chroma/
